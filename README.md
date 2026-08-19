@@ -20,12 +20,14 @@ Dossier de chantier pour la mise en peinture des armoires et dressings du studio
 | [02 — Calcul des surfaces](docs/02-calcul-surfaces.md) | Métré des 28 portes, rendements, quantités à commander |
 | [03 — Manuel de laquage](docs/03-manuel-laquage.md) | **Le document principal.** Mode opératoire complet, pas à pas, pour débutant |
 | [04 — Liste d'achats Tunisie](docs/04-liste-achats-tunisie.md) | Bons de commande prêts à donner, adaptés au marché tunisien |
+| [05 — Essai sur une porte](docs/05-essai-une-porte.md) | Liste d'achats réduite et critères d'évaluation de la porte test |
 
 ## Par où commencer
 
 1. Lire **[la partie 0 du manuel](docs/03-manuel-laquage.md#partie-0--à-lire-avant-douvrir-le-premier-pot)** en entier, y compris la section sécurité.
-2. Passer les trois commandes de la **[liste d'achats](docs/04-liste-achats-tunisie.md)**.
-3. Suivre le manuel dans l'ordre, du chapitre 2 au chapitre 18.
+2. Passer les trois commandes réduites de **[l'essai sur une porte](docs/05-essai-une-porte.md)**, et traiter une seule petite porte de bout en bout.
+3. Relever la consommation réelle et ajuster les quantités de la **[liste d'achats complète](docs/04-liste-achats-tunisie.md)**.
+4. Lancer les 27 portes restantes en suivant le manuel dans l'ordre, du chapitre 2 au chapitre 18.
 
 ## Les règles qui décident du résultat
 
