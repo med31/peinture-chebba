@@ -1,6 +1,7 @@
 /**
- * Puzzles type CodinGame — à connaître par cœur.
+ * Puzzles type CodinGame — fonctions pures (pas de DOM, pas de Vue).
  * En test, lis TOUS les cas (tableau vide, égalité, négatifs) avant de coder.
+ * Cours : chapitre 19 + docs/01-strategie-coding-game.md
  */
 
 /** Température la plus proche de 0. En cas d'égalité, on privilégie le positif. Tableau vide → 0. */

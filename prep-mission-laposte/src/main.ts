@@ -1,3 +1,4 @@
+/** Point d’entrée : Vue + Pinia (avant les pages) + routes. Cours : 19-visite-guidee-du-code.md */
 import { createApp } from "vue";
 import { createPinia } from "pinia";
 import App from "./App.vue";

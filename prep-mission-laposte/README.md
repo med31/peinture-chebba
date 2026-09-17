@@ -1,46 +1,38 @@
 # Kit de préparation — mission Vue.js / Nuxt La Poste (DT eCommerce)
 
-Ce dossier te prépare **au coding game et à l’entretien** pour une prestation front Vue 3 / Nuxt sur les interfaces e-commerce de la DSI BGPN (Branche Grand Public et Numérique).
+Ce dossier te prépare **au coding game et à l’entretien** pour une prestation front Vue 3 / Nuxt sur les interfaces e-commerce de la DSI BGPN.
 
-Tu n’as pas l’énoncé exact du test. Personne ne l’a. En revanche, pour ce type de mission (ESN + La Poste + Vue/Nuxt senior), le format est presque toujours le même. Ce kit couvre **exactement** ce qui fait la différence.
+## Par où commencer
 
-## Démarrer en 3 commandes
+**Si tu veux comprendre (sans internet)** — lis le cours, dans l’ordre :
+
+→ **[cours/README.md](cours/README.md)**
+
+Chaque notion de l’offre (Vue, Nuxt, Pinia, TypeScript, REST/GraphQL, micro-services, SASS/BEM, Figma/Storybook, tests, WCAG, GitLab/Docker, Agile, SEO) y est expliquée avec des exemples « boutique La Poste ». Le [glossaire](cours/20-glossaire.md) définit tous les sigles. Les [FAQ](cours/21-questions-frequentes.md) répondent aux blocages classiques (`.value`, `storeToRefs`, Vue vs Nuxt…).
+
+**Ensuite**, tu mémorises et tu t’entraînes :
 
 ```bash
 cd prep-mission-laposte
 npm install
-npm test          # les exercices type coding game
-npm run dev       # mini boutique catalogue + panier + checkout
+npm test          # 21 tests type coding game
+npm run dev       # mini boutique http://localhost:5173
 ```
 
-Ouvre `http://localhost:5173`, joue le parcours : filtrer, ajouter au panier, modifier une quantité, commander.
-
-## Par où commencer (selon le temps)
-
-| Temps dispo | Faire dans l’ordre |
+| Temps | Faire |
 |---|---|
-| **2 heures** | [docs/01-strategie-coding-game.md](docs/01-strategie-coding-game.md) → [docs/02-cheatsheet-vue3.md](docs/02-cheatsheet-vue3.md) → `npm test` → relire Pinia dans [docs/03-cheatsheet-nuxt-pinia.md](docs/03-cheatsheet-nuxt-pinia.md) |
-| **1 journée** | + mini-projet `npm run dev` + [docs/05-qcm.md](docs/05-qcm.md) + algos `closestToZero` |
-| **3 jours** | + [docs/06-entretien-oral.md](docs/06-entretien-oral.md) + accessibilité / BEM / SSR + [docs/07-checklist-jour-j.md](docs/07-checklist-jour-j.md) |
+| **Comprendre** | [Cours](cours/README.md) + [fil rouge du clic panier](cours/00-fil-rouge-ajouter-au-panier.md) + [visite du code](cours/19-visite-guidee-du-code.md) |
+| **2 heures avant le test** | [stratégie](docs/01-strategie-coding-game.md) + [cheatsheet Vue](docs/02-cheatsheet-vue3.md) + `npm test` + [snippets](docs/09-snippets-jour-j.md) |
+| **1 journée** | + `npm run dev` + [QCM](docs/05-qcm.md) + [chrono](docs/08-entrainement-chrono.md) |
+| **Veille** | [oral](docs/06-entretien-oral.md) + [checklist](docs/07-checklist-jour-j.md) |
 
-## Contenu
+## Contenu du dossier
 
-1. **Stratégie du coding game** — formats CodinGame / TestDome, gestion du temps, pièges, barème.
-2. **Cheatsheets à mémoriser** — Vue 3 Composition API, Nuxt 3, Pinia, TypeScript, SASS/BEM, WCAG, GitLab CI.
-3. **QCM** — 40 questions collées à la fiche de poste.
-4. **Entretien oral** — réponses prêtes (SSR, micro-front, DS, encadrement juniors).
-5. **Code entraînable**
-   - algos CodinGame (`src/algos/codingGame.ts`)
-   - exercices Vue type TestDome (`src/exercices/`)
-   - mini e-commerce Pinia (`src/views/`, `src/stores/cart.ts`)
+| Dossier | Rôle |
+|---|---|
+| `cours/` | Explications complètes, comme un formateur |
+| `docs/` | Fiches courtes à mémoriser, QCM, oral, jour J |
+| `src/` | Mini e-commerce + algos + exercices Vue |
+| `tests/` | Ce que le coding game vérifie |
 
-## Ce que le recruteur va mesurer
-
-- Tu codes **Vite / Vue 3 / `<script setup>` / TypeScript** sans hésiter.
-- Tu gères un **état de panier** (Pinia), pas seulement un `ref` local.
-- Tu gères **loading / vide / erreur / rupture de stock**.
-- Tu respectes **BEM + labels + clavier** même sous pression.
-- Tu connais **SSR Nuxt** (SEO e-commerce) même si le test est en Vue SPA.
-- Tu parles **qualité** (tests, a11y, perf) comme un confirmé/lead, pas comme un exécutant.
-
-Le coding game ne te demande pas de reconstruire laposte.fr. Il te demande de prouver, en 45–90 min, que tu peux livrer un front e-commerce propre.
+Tu n’as pas l’énoncé exact du test. Le format ESN + La Poste + Vue/Nuxt senior est presque toujours : **QCM + algo JS + mini-app liste/panier**. Le cours t’explique le **pourquoi** ; le mini-projet t’entraîne au **comment**.

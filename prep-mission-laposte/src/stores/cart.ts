@@ -1,3 +1,9 @@
+/**
+ * Store Pinia du panier — une seule « vérité » pour header, catalogue et checkout.
+ * Cours : cours/06-pinia-et-vuex.md et cours/00-fil-rouge-ajouter-au-panier.md
+ *
+ * Dans un composant : storeToRefs(cart) pour count/items, cart.add() pour les actions.
+ */
 import { defineStore } from "pinia";
 import { computed, ref } from "vue";
 import type { CartItem, Product } from "@/types/product";

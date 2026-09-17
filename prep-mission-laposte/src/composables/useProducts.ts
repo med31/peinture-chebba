@@ -1,3 +1,8 @@
+/**
+ * Composable : logique du catalogue (chargement + filtre + tri) réutilisable.
+ * Ce n’est PAS un store : une seule page s’en sert. Cours : 04-composition-api.md
+ * `filtered` est un computed (formule), pas un watch.
+ */
 import { computed, ref } from "vue";
 import { PRODUCTS } from "@/data/products";
 import type { Product, ProductCategory } from "@/types/product";

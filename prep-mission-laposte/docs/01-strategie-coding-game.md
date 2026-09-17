@@ -1,5 +1,8 @@
 # 01 — Stratégie pour réussir le coding game
 
+> Avant ce document : lis le **cours** (`cours/README.md`). Ici on parle **tactique de test**, pas des bases.
+
+
 ## 1. À quoi ça ressemble vraiment
 
 Pour une mission **Vue.js / Nuxt e-commerce La Poste**, le « coding game » est en général **CodinGame for Work** (parfois CoderPad / TestDome / un take-home). Trois briques reviennent :

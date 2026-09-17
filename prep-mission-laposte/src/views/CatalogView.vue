@@ -1,4 +1,8 @@
 <script setup lang="ts">
+/**
+ * Page catalogue : assemble filtre + cartes, gère les 4 états (loading / erreur / vide / liste).
+ * En Nuxt, fetchProducts() deviendrait un useFetch (cours 05). Ici SPA : onMounted.
+ */
 import { onMounted } from "vue";
 import ProductCard from "@/components/ProductCard.vue";
 import ProductFilters from "@/components/ProductFilters.vue";

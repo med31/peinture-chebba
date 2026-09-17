@@ -1,8 +1,10 @@
 # peinture-chebba
 
-Kit de préparation pour une mission **Vue.js 3 / Nuxt** (DT eCommerce, Groupe La Poste) : coding game + entretien.
+Préparation mission **Vue.js 3 / Nuxt** (DT eCommerce, Groupe La Poste).
 
-Tout est dans [`prep-mission-laposte/`](prep-mission-laposte/README.md).
+**Pour tout comprendre sans chercher sur internet**, ouvre le cours :
+
+[`prep-mission-laposte/cours/README.md`](prep-mission-laposte/cours/README.md)
 
 ```bash
 cd prep-mission-laposte
