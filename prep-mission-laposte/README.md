@@ -19,6 +19,8 @@ npm test          # 21 tests type coding game
 npm run dev       # mini boutique http://localhost:5173
 ```
 
+**Liseuse** : le livre PDF (cours + fiches jour J, 138 pages, format 6") est dans [`liseuse/Cours-Vue-Nuxt-La-Poste-liseuse.pdf`](liseuse/Cours-Vue-Nuxt-La-Poste-liseuse.pdf). Mode d’emploi : [`liseuse/README.md`](liseuse/README.md).
+
 | Temps | Faire |
 |---|---|
 | **Comprendre** | [Cours](cours/README.md) + [fil rouge du clic panier](cours/00-fil-rouge-ajouter-au-panier.md) + [visite du code](cours/19-visite-guidee-du-code.md) |
