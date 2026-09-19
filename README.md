@@ -12,3 +12,5 @@ npm install
 npm test
 npm run dev
 ```
+
+Livre liseuse (PDF) : [`prep-mission-laposte/liseuse/Cours-Vue-Nuxt-La-Poste-liseuse.pdf`](prep-mission-laposte/liseuse/Cours-Vue-Nuxt-La-Poste-liseuse.pdf)
